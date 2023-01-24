@@ -1,0 +1,73 @@
+STD_ID	MetaboliteName	IonisationMode	MZ	Time			
+1	"N,N-dimethylarginine_M+H"	+	203.1502518				
+2	"N,N-dimethylarginine_M+3H"	+	205.1647758				
+3	"N,N-dimethylarginine_M+2H"	+	204.1575258				
+4	"N,N-dimethylarginine_M+2H+Na"	+	227.1467458				
+5	"N,N-dimethylarginine_M+2Na+H"	+	249.1286858				
+6	"N,N-dimethylarginine_M+H+Na"	+	226.1394658				
+7	"N,N-dimethylarginine_M+2Na"	+	248.1214158				
+8	"N,N-dimethylarginine_M+H-2H2O"	+	167.1291258				
+9	"N,N-dimethylarginine_M+H-H2O"	+	185.1396878				
+10	"N,N-dimethylarginine_M+NH4"	+	220.1767958				
+11	"N,N-dimethylarginine_M+Na"	+	225.1321758				
+12	"N,N-dimethylarginine_M+K"	+	241.1060758				
+13	Cortisone_M+H	+	361.20095				
+14	Cortisone_M+3H	+	363.215474				
+15	Cortisone_M+2H	+	362.208224				
+16	Cortisone_M+2H+Na	+	385.197444				
+17	Cortisone_M+2Na+H	+	407.179384				
+18	Cortisone_M+H+Na	+	384.190164				
+19	Cortisone_M+2Na	+	406.172114				
+20	Cortisone_M+H-2H2O	+	325.179824				
+21	Cortisone_M+H-H2O	+	343.190386				
+22	Cortisone_M+NH4	+	378.227494				
+23	Cortisone_M+Na	+	383.182874				
+24	Cortisone_M+K	+	399.156774				
+25	L-Arginine_M+H	+	175.1189517				
+26	L-Arginine_M+3H	+	177.1334757				
+27	L-Arginine_M+2H	+	176.1262257				
+28	L-Arginine_M+2H+Na	+	199.1154457				
+29	L-Arginine_M+2Na+H	+	221.0973857				
+30	L-Arginine_M+H+Na	+	198.1081657				
+31	L-Arginine_M+2Na	+	220.0901157				
+32	L-Arginine_M+H-2H2O	+	139.0978257				
+33	L-Arginine_M+H-H2O	+	157.1083877				
+34	L-Arginine_M+NH4	+	192.1454957				
+35	L-Arginine_M+Na	+	197.1008757				
+36	L-Arginine_M+K	+	213.0747757				
+37	L-carnosine_M+H	+	227.11387				
+38	L-carnosine_M+3H	+	229.127483				
+39	L-carnosine_M+2H	+	228.120233				
+40	L-carnosine_M+2H+Na	+	251.109453				
+41	L-carnosine_M+2Na+H	+	273.091393				
+42	L-carnosine_M+H+Na	+	250.102173				
+43	L-carnosine_M+2Na	+	272.084123				
+44	L-carnosine_M+H-2H2O	+	191.091833				
+45	L-carnosine_M+H-H2O	+	209.102395				
+46	L-carnosine_M+NH4	+	244.139503				
+47	L-carnosine_M+Na	+	249.094883				
+48	L-carnosine_M+K	+	265.068783				
+49	L-(+)-Lactic acid _M-H	-	89.02441763				
+50	L-(+)-Lactic acid _3M-H	-	269.0878057				
+51	L-(+)-Lactic acid _2M-H	-	179.0561117				
+52	L-(+)-Lactic acid _M-3H	-	87.00986477				
+53	L-(+)-Lactic acid _M-2H	-	88.0171412				
+54	L-(+)-Lactic acid _M-H20-H	-	71.01385296				
+55	3-hydroxybutyric acid_M-H	-	103.0400677				
+56	3-hydroxybutyric acid_3M-H	-	311.1347559				
+57	3-hydroxybutyric acid_2M-H	-	207.0874118				
+58	3-hydroxybutyric acid_M-3H	-	101.0255148				
+59	3-hydroxybutyric acid_M-2H	-	102.0327913				
+60	3-hydroxybutyric acid_M-H20-H	-	85.02950302				
+61	Linoleic acid _M-H	-	279.2329538				
+62	Linoleic acid _3M-H	-	839.7134144				
+63	Linoleic acid _2M-H	-	559.4731841				
+64	Linoleic acid _M-3H	-	277.218401				
+65	Linoleic acid _M-2H	-	278.2256774				
+66	Linoleic acid _M-H20-H	-	261.2223892				
+67	Palmitic acid d31_M-H	-	286.42733				
+68	Palmitic acid d31_3M-H	-	861.2955066				
+69	Palmitic acid d31_2M-H	-	573.8612456				
+70	Palmitic acid d31_M-3H	-	284.4124317				
+71	Palmitic acid d31_M-2H	-	285.4197081				
+72	Palmitic acid d31_M-H20-H	-	268.4164199				

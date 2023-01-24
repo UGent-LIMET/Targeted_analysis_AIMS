@@ -1,0 +1,16 @@
+# Title: Software framework for the processing and statistical analysis of multivariate MS-data
+# Owner: Laboratory of Integrative Metabolomics (LIMET), Ghent university
+# Creator: Dr. Marilyn De Graeve
+# Maintainer: <limet@ugent.be>
+# Repository: Targeted_analysis_AIMS
+
+# Description: Finds a priori defined standards in metabolomics AIMS dataset.
+# Input: 
+# -	Configuration.R
+# -	VariableMetadata.txt
+# -	TargetedMetadata.txt
+# - Optional: Data/Output/scans folder generated during pre-processing to create MZ-window plots
+# Output: 
+# -	VariableMetadata_output_targeted_analysis.txt
+# -	Optional: plots with MZ-window when performed after pre-processing_AIMS
+

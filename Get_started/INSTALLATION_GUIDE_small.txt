@@ -1,0 +1,30 @@
+Info:
+*****
+# Title: Software framework for the processing and statistical analysis of multivariate MS-data
+# Owner: Laboratory of Integrative Metabolomics (LIMET), Ghent university
+# Creator: Dr. Marilyn De Graeve
+# Maintainer: <limet@ugent.be>
+# Script: INSTALLATION_GUIDE
+
+get started
+***********
+### Layout ###
+- make foldersystem:
+	> Pipeline_metabolomics
+		> Data
+			> Input
+			> Output
+			> Reports
+		> R_scripts
+- paste distributed R code in R_scripts folder
+- paste your personal files in Input folder according to instructions in README
+
+### Install required dependencies ###
+- install required dependencies according to instructions in DEPENDENCIES
+
+### Run code ###
+- Rscript main.r projectname 
+
+### Get results ###
+- in folder Data/output: plots, txt files raw output 
+
