@@ -159,7 +159,8 @@ plot_vip <- function(vipdf) {
     geom_vline(xintercept = 0.05, color = 'red', size = 1)+
     theme_customgridbox()+
     labs(title="VIP-plot",x="p-value", y="VIP")+
-    scale_color_manual(values="black")
+    scale_color_manual(values="black")+
+    theme(legend.position="none") #no legend
 }
 
 plot_Splot <- function(Splotframe_comp) {
@@ -169,7 +170,8 @@ plot_Splot <- function(Splotframe_comp) {
     geom_hline(yintercept = -Cutoffvalue_corr,color='red',size=1)+
     theme_customgridbox()+
     labs(title="S-plot",x="Covariance", y="Correlation")+
-    scale_color_manual(values=c("black","red"))
+    scale_color_manual(values=c("black","red"))+
+    theme(legend.position="none") #no legend
 }
 
 plot_loading <- function(myCIsframe_comp) {
@@ -313,6 +315,22 @@ plot_multiboxplot <- function(samples_matrix_comp_no0) {
          y=name_standard)+
     scale_fill_brewer(type='seq',palette='Blues')+
     theme_customgridbox()+
+    theme(legend.position="none") #no legend
+}
+
+plot_volcano <- function(volcano_df){
+  #https://erikaduan.github.io/posts/2021-01-02-volcano-plots-with-ggplot2/
+  
+  ggplot(volcano_df, aes(x = log2(as.numeric(Fold.change)+0.000001), y = -log10(as.numeric(p.value)+0.000001) )) + 
+    geom_point() +
+    geom_hline(yintercept = -log10(0.05),
+               linetype = "dashed") + 
+    geom_vline(xintercept = c(log2(0.5), log2(2)),
+               linetype = "dashed") +
+    labs(title= "",  #"p-value versus fold change",  
+         x="log2 fold change", 
+         y="-log10 p-value") +
+    theme_customnogridbox()+
     theme(legend.position="none") #no legend
 }
 
